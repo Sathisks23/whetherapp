@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.container{
+    height: 95vh;
+    margin:50px auto;
+    width: 350px;
+   background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    border: 6px solid rgb(40, 40, 40);
+    box-shadow:4px 4px 20px rgba(10, 10, 10, 0.571);
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./newpic.png);
+    height:556px;
+    border-radius: 30px;
+}
+
+#inputdiv{
+ margin: 20px;
+}
+.innerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+input{
+border: none;
+height: 30px;
+border-radius: 20px;
+margin: 20px;
+text-align: center;
+}
+input:focus{
+    outline: none;
+}
+
+.fa-solid{
+    cursor: pointer;
+    padding: 10px;
+  
+}
+
+#temp{
+    font-size: 48px;
+    color: white;
+    
+}
+
+.fa-solid{
+    color:white;
+}
+
+#city{
+    font-size: 22px;
+    color: white;
+
+}
+
+.output{
+    text-align: center;
+}
+
+#desc{
+    color: white;
+    font-size: 14px;
+}
+
+.others{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.others>*{
+    font-size: 10px;
+    color: white;
+}
